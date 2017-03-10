@@ -1,5 +1,5 @@
--- #Beyond Self Robot
--- #@BeyondTeam
+-- #ArashN0 Self Robot
+-- #@adixco
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -62,21 +62,20 @@ end
 function create_self( )
   self = {
     names = {
-    "solid",
-    "سلید",
-    "سولید",
-    "سعید",
-    "saeed",
-    "saeid"
+    "arash",
+    "آرش",
+    "ارش",
+    "arsh",
+    "سینوس",
+    "رنجر",
+    "sinoos"
     },
     answers = {
-    "وات؟ :/",
-    "بلی؟",
-    "بفرما",
-    "بوگوی :|",
-    "جونم؟",
-    "جونز",
-    "ژون؟ :/"
+    "bale",
+    "jon",
+    "jonm",
+    "بله",
+    "جونم؟"
     },
 }
   serialize_to_file(self, './data/self.lua')
@@ -115,33 +114,15 @@ function create_config( )
 		"tools",
      "fun"
 	},
-    sudo_users = {157059515},
+    sudo_users = {226726601},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond Self Bot V2.5
-An fun bot based on BDReborn
-
-》https://github.com/BeyondTeam/Self-BotV2 
-
-》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer《
-》@To0fan ➣ Developer《
-》@CiveY ➣ Developeer《
-》@MrPars ➣ Manager《
-
-》Special thanks to :
-》@Vysheng
-》@MrHalix
-》@Tele_Sudo
-》And Beyond Team Members
-
-》Our channel :
-》@BeyondTeam《
-
-》Our website :
-》http://BeyondTeam.ir
+    info_text = [[》Arash N0
+Age: 16
+Location: Karaj
+》 @ArashN0
+		
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
