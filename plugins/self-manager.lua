@@ -1,5 +1,5 @@
 local function show_bot_settings(msg)
-   local text = '*》Self Bot Settings :《*\n'
+   local text = '*》Arash Settings :《*\n'
 
    local hash = 'autoleave'
     if not redis:get(hash) then
